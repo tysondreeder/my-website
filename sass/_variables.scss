@@ -1,0 +1,146 @@
+$lightest-gray: #eaeaea;
+$lighter-gray: #c6c4c6;
+$dark-gray: #3d3d3d;
+$mint: #64CCA6;
+$white: #ffffff;
+$blue: #0d8ad6;
+
+// Work Colors
+$design-guide : #0d8ad6;
+$design-guide-accent : #ade1ff;
+
+
+$bsd : #6ccaea;
+
+$dgr : #2c2e30;
+$dgr-accent : #ecb64d;
+$dgr-light : darken($white, 3);
+
+$about-us : #224157;
+
+$iconography : #29e2bf;
+
+// Background Classes
+.bg-lighter-gray {
+    background: $lighter-gray;
+}
+
+.bg-lightest-gray {
+    background: $lightest-gray;
+}
+
+.bg-dark-gray {
+    background: $dark-gray;
+}
+
+.bg-mint {
+    background: $mint;
+}
+
+.bg-white {
+    background: $white;
+}
+
+.bg-blue {
+    background: $blue;
+}
+
+.bg-design-guide {
+    background: $design-guide;
+}
+
+.bg-design-guide-accent {
+    background: $design-guide-accent;
+}
+
+.bg-bsd {
+    background: $bsd;
+}
+
+.bg-dgr {
+    background: $dgr;
+}
+
+.bg-dgr-accent {
+    background: $dgr-accent;
+}
+
+.bg-dgr-light {
+    background: $dgr-light;
+}
+
+
+.bg-about-us {
+    background: $about-us;
+}
+
+.bg-iconography {
+    background: $iconography;
+}
+
+
+
+
+// Color classes
+.lighter-gray {
+    color: $lighter-gray;
+}
+
+.lightest-gray {
+    color: $lightest-gray;
+}
+
+.dark-gray {
+    color: $dark-gray;
+}
+
+.mint {
+    color: $mint;
+}
+
+.white {
+    color: $white;
+}
+
+.design-guide {
+    color: $design-guide;
+}
+
+.design-guide-accent {
+    color: $design-guide-accent;
+}
+
+.bsd {
+    color: $bsd;
+}
+
+.dgr {
+    color: $dgr;
+}
+
+.dgr-accent {
+    color: $dgr-accent;
+}
+
+.dgr-light {
+    color: $dgr-light;
+}
+
+.about-us {
+    color: $about-us;
+}
+
+.iconography {
+    color: $iconography;
+}
+
+
+
+
+
+
+
+
+
+
+

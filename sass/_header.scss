@@ -1,0 +1,88 @@
+* {
+  // outline: 1px solid gray;
+}
+
+/*
+-------------
+Header
+-------------
+*/
+
+header {
+  .container-fluid {
+    padding: 0;
+  }
+}
+
+.header-container {
+  padding: 15px;
+  position: relative;
+}
+
+.logo-container {
+  .logo {
+    width: 50px;
+    padding-top: 10px;
+
+    @media screen and (min-width: $bp-md) {
+      width: 80px;
+      padding-top: 0;
+    }
+  }
+}
+
+.title-container {
+  padding-right: 0;
+  padding-left: 0;
+  font-weight: 300;
+
+  .title {
+    color: $dark-gray;
+  }
+
+  .focused {
+    font-size: 9px;
+    letter-spacing: .2em;
+    padding-bottom: 5px;
+
+    @media screen and (min-width: $bp-md) {
+      font-size: 15px;
+    }
+  }
+
+  .strategy-design {
+    font-size: 12px;
+    letter-spacing: 0.08em;
+
+    @media screen and (min-width: $bp-md) {
+      font-size: 18px;
+    }
+  }
+}
+
+.menu-container {
+  @extend .no-underline;
+  padding: 31px 25px 17px 26px;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 20;
+  cursor: pointer;
+  @include transition-property(background);
+  @include transition-duration(.15s);
+
+  @media screen and (min-width: $bp-md) {
+    padding: 35px 33px 24px 37px;
+  }
+
+  &:hover {
+    background: darken($white, 10);
+  }
+
+  .btn-menu {
+    width: 30px;
+    height: 30px;
+    display: block;
+    @extend .no-underline;
+  }
+}

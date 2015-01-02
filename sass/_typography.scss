@@ -1,0 +1,35 @@
+// Create REMs
+@function calculateRem($size) {
+$remSize: $size / 16px;
+@return $remSize * 1rem;
+}
+
+@mixin font-size($size) {
+font-size: $size;
+font-size: calculateRem($size);
+}
+@mixin line-height($size) {
+line-height: $size;
+line-height: calculateRem($size);
+}
+
+$museo : "museo-sans";
+
+body {
+  font-family: "museo-sans",sans-serif;
+}
+
+p {
+  letter-spacing: .04em;
+}
+
+a {
+  border-bottom: 2px solid transparent;
+  color: $blue;
+  text-decoration: none;
+
+  &:hover {
+    border-bottom: 2px solid $blue;
+    text-decoration: none;
+  }
+}

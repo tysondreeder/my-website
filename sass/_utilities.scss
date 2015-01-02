@@ -1,0 +1,121 @@
+.clearfix {
+  @mixin clearfix {
+    &:after {
+      clear: both;
+      content: "";
+      display: table;
+    }
+  }
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.fixed {
+  position: fixed;
+}
+
+.relative {
+  position: relative;
+}
+
+.table-cell {
+  display: table-cell;
+}
+
+.middle {
+  vertical-align: middle;
+}
+
+.display-table {
+  display: table;
+  position: relative;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.pa0 {
+  padding: 0 !important;
+}
+
+// Animation
+.slideUp{
+  animation-name: slideUp;
+  -webkit-animation-name: slideUp;  
+
+  animation-duration: 1s; 
+  -webkit-animation-duration: 1s;
+
+  animation-timing-function: ease;  
+  -webkit-animation-timing-function: ease;
+
+  visibility: visible !important;     
+}
+
+@keyframes slideUp {
+  0% {
+    transform: translateY(120%);
+  }
+   
+  100% {
+    transform: translateY(0%);
+  } 
+}
+
+@-webkit-keyframes slideUp {
+  0% {
+    -webkit-transform: translateY(120%);
+  }
+  
+  100% {
+    -webkit-transform: translateY(0%);
+  } 
+}
+
+.slide-up {
+  bottom: 0;
+}
+
+.no-underline {
+  border-bottom: none !important;
+}
+
+.hide-menu {
+  display: none;
+  @include transition-property(all);
+  @include transition-duration(1s);
+}
+
+// Create padding and margin classes
+// Written by Nate Smith
+$singles: (mt margin-top) (mb margin-bottom) (pt padding-top) (pb padding-bottom);
+$double: (mtb margin) (ptb padding);
+$baseNumber: 5px;
+
+@for $i from 1 through 30 {
+  @each $selector in $singles {
+    $sel: nth($selector, 1);
+    $attr: nth($selector, 2);
+    
+    .#{$sel}#{$i} {
+        #{$attr}: $baseNumber * $i !important;
+    }
+  }
+  
+  @each $selector in $double {
+    $sel: nth($selector, 1);
+    $attr: nth($selector, 2);
+    
+    .#{$sel}#{$i} {
+      #{$attr}-top: $baseNumber * $i !important;
+      #{$attr}-bottom: $baseNumber * $i !important;
+    }
+  }
+}

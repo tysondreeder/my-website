@@ -1,0 +1,31 @@
+/*
+-------------
+Bootstrap Overrides
+-------------
+*/
+
+.nav>li>a:hover, 
+.nav>li>a:focus {
+  background-color: transparent;
+  text-decoration: none;
+}
+
+
+/*
+-------------
+Globals
+-------------
+*/
+
+img {
+  height: auto;
+  max-width: 100%;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+
+
+

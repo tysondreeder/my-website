@@ -1,0 +1,51 @@
+.btn-cta {
+  display: block;
+  text-align: left;
+  padding: 20px 30px;
+  text-decoration: none;
+  font-weight: 100;
+
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+.btn-menu {
+  background: url(../images/icon-menu.svg) no-repeat;
+}
+
+.btn-close {
+  background: url('../images/btn-close.svg') no-repeat;
+}
+
+.btn-left {
+  border-bottom: 1px solid;
+
+  @media screen and (min-width: $bp-sm) {
+    border-right: 1px solid;  
+    border-bottom: none;
+  }
+}
+
+.btn-view-project {
+  margin-right: 15px;
+  float: left;
+}
+
+.btn-view-site {
+  float: left;
+}
+
+.btn-cta {
+  @extend .btn-cta;
+  @include transition-property(background);
+  @include transition-duration(.15s);
+
+  .arrow {
+    float: right;
+    width: 8px;
+    height: 20px;
+    display: block;
+    text-align: right;
+  } 
+}

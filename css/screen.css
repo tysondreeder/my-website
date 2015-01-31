@@ -560,7 +560,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   background: #ade1ff; }
 
 .bg-bsd {
-  background: #6ccaea; }
+  background: #66C4DD; }
 
 .bg-dgr {
   background: #2c2e30; }
@@ -599,7 +599,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   color: #ade1ff; }
 
 .bsd {
-  color: #6ccaea; }
+  color: #66C4DD; }
 
 .dgr {
   color: #2c2e30; }
@@ -1309,13 +1309,6 @@ a {
 .btn-close {
   background: url("../images/btn-close.svg") no-repeat; }
 
-.btn-left {
-  border-bottom: 1px solid; }
-  @media screen and (min-width: 500px) {
-    .btn-left {
-      border-right: 1px solid;
-      border-bottom: none; } }
-
 .btn-view-project {
   margin-right: 15px;
   float: left; }
@@ -1376,7 +1369,8 @@ img {
   text-align: center;
   font-size: 60px;
   line-height: 100px;
-  top: 0; }
+  top: 0;
+  opacity: .8; }
   .overlay nav a {
     width: 100%;
     display: block;
@@ -1543,17 +1537,17 @@ header .container-fluid {
     #work-overview .bg-design-guide .btn-left, #other-work .bg-design-guide .btn-left {
       border-right: 1px solid #0c7abe; } }
 #work-overview .bg-bsd .work-image, #other-work .bg-bsd .work-image {
-  background: #3fbae4; }
+  background: #3cb4d4; }
 #work-overview .bg-bsd .btn-cta, #other-work .bg-bsd .btn-cta {
-  background: #99daf0;
+  background: #90d4e6;
   color: #ffffff; }
   #work-overview .bg-bsd .btn-cta:hover, #other-work .bg-bsd .btn-cta:hover {
-    background: #51c0e6; }
+    background: #4dbad7; }
 #work-overview .bg-bsd .btn-left, #other-work .bg-bsd .btn-left {
-  border-bottom: 1px solid #56c2e7; }
+  border-bottom: 1px solid #51bcd8; }
   @media screen and (min-width: 500px) {
     #work-overview .bg-bsd .btn-left, #other-work .bg-bsd .btn-left {
-      border-right: 1px solid #56c2e7; } }
+      border-right: 1px solid #51bcd8; } }
 #work-overview .bg-dgr .work-image, #other-work .bg-dgr .work-image {
   background: #141415;
   min-height: 314px; }
@@ -1881,7 +1875,7 @@ ______ _____ _____ _____ _____  _   _   _____ _   _ ___________ _____
 #other-work .bg-design-guide .work-image {
   background: #0a6ba6; }
 #other-work .bg-bsd .work-image {
-  background: #3fbae4; }
+  background: #3cb4d4; }
 #other-work .bg-dgr .work-image {
   background: #141415; }
 #other-work .bg-about-us .work-image {

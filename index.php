@@ -6,7 +6,7 @@
   <?php include("includes/header.inc.php"); ?>
   <?php include("includes/overlay.inc.php"); ?>
   <main id="work-overview">
-    <section class="container-fluid work-container bg-design-guide col-sm-6">
+    <section class="container-fluid work-container bg-design-guide col-sm-12">
       <div class="work-image col-md-12">
         <figure class="desktop">
           <img src="images/design-guide-desktop.png" />
@@ -37,7 +37,7 @@
         </a>
       </div>
     </section>
-    <section class="container-fluid work-container bg-about-us col-sm-6">
+    <section class="container-fluid work-container bg-about-us col-sm-12">
       <div class="work-image col-md-12">
         <figure class="desktop">
           <img src="images/about-us-desktop.png" />
@@ -68,7 +68,7 @@
         </a>
       </div>  
     </section>
-    <section class="container-fluid work-container bg-bsd col-sm-6">
+    <section class="container-fluid work-container bg-bsd col-sm-12">
       <div class="work-image col-md-12">
         <figure class="desktop">
           <img src="images/bsd-reporting-desktop.png" />
@@ -99,7 +99,7 @@
         </a>
       </div>
     </section>
-    <section class="container-fluid work-container bg-dgr col-sm-6">
+    <section class="container-fluid work-container bg-dgr col-sm-12">
       <div class="work-image">
         <figure>
           <img src="images/dgr-logo.svg" />

@@ -7,7 +7,7 @@
   <?php include("includes/overlay.inc.php"); ?>
   <main id="work-overview">
     <section class="container-fluid work-container bg-design-guide col-sm-12">
-      <div class="work-image col-md-12">
+      <div class="work-image col-md-5">
         <figure class="desktop">
           <img src="images/design-guide-desktop.png" />
         </figure>
@@ -18,24 +18,24 @@
           <img src="images/design-guide-sm.png" />
         </figure>
       </div>
-      <article class="work-description col-md-12 lazy">
-        <div class="description-container col-md-8 col-md-offset-2">
+      <article class="work-description col-sm-12 col-md-4 lazy">
+        <div class="description-container">
           <div class="post-link white">
             <h1 class="">Mutual of Omaha Design Guide</h1>
             <p>Guiding principles for Mutual of Omaha design and experience across multiple environments.</p>
           </div>
         </div>
+        <div class="btn-container">
+          <a class="btn-cta btn-left col-sm-6" href="work/design-guide/">
+            <span class="text">See Project</span>
+            <span class="arrow"><img src="images/arrow.svg" /></span>
+          </a>
+          <a class="btn-cta btn-right col-sm-6" href="http://www.mutualofomaha.com/design">
+            <span class="text no-underline">View Site</span>
+            <span class="arrow"><img src="images/arrow.svg" /></span>
+          </a>
+        </div>
       </article>
-      <div class="btn-container">
-        <a class="btn-cta btn-left col-sm-6" href="work/design-guide/">
-          <span class="text">See Project</span>
-          <span class="arrow"><img src="images/arrow.svg" /></span>
-        </a>
-        <a class="btn-cta btn-right col-sm-6" href="http://www.mutualofomaha.com/design">
-          <span class="text no-underline">View Site</span>
-          <span class="arrow"><img src="images/arrow.svg" /></span>
-        </a>
-      </div>
     </section>
     <section class="container-fluid work-container bg-about-us col-sm-12">
       <div class="work-image col-md-12">

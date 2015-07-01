@@ -20,6 +20,11 @@
     @media screen and (min-width: $bp-sm) {
       padding: 0;
     }
+
+    &.about-us {
+      background: red;
+      height: 800px;
+    }
   }
 
   .content-container {

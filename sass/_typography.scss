@@ -13,10 +13,10 @@ line-height: $size;
 line-height: calculateRem($size);
 }
 
-$museo : "museo-sans";
+$museo : "museo-sans-rounded";
 
 body {
-  font-family: "museo-sans",sans-serif;
+  font-family: "museo-sans-rounded",sans-serif;
 }
 
 p {

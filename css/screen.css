@@ -535,6 +535,27 @@ a img {
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
   display: block; }
 
+#work-overview .work-container.about-us, #work-overview .work-container.about-us2 {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#145493+0,105fa8+100 */
+  background: #145493;
+  /* Old browsers */
+  /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+  background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzE0NTQ5MyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMxMDVmYTgiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+  background: -moz-linear-gradient(top, #145493 0%, #105fa8 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #145493), color-stop(100%, #105fa8));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #145493 0%, #105fa8 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #145493 0%, #105fa8 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #145493 0%, #105fa8 100%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #145493 0%, #105fa8 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#145493', endColorstr='#105fa8',GradientType=0 );
+  /* IE6-8 */ }
+
 .bg-lighter-gray {
   background: #c6c4c6; }
 
@@ -542,7 +563,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   background: #eaeaea; }
 
 .bg-dark-gray {
-  background: #3d3d3d; }
+  background: #2A3339; }
 
 .bg-mint {
   background: #64CCA6; }
@@ -584,7 +605,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   color: #eaeaea; }
 
 .dark-gray {
-  color: #3d3d3d; }
+  color: #2A3339; }
 
 .mint {
   color: #64CCA6; }
@@ -615,6 +636,9 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 
 .iconography {
   color: #29e2bf; }
+
+.uppercase {
+  text-transform: uppercase; }
 
 .bold {
   font-weight: bold; }
@@ -1281,7 +1305,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   padding-bottom: 150px !important; }
 
 body {
-  font-family: "museo-sans",sans-serif; }
+  font-family: "museo-sans-rounded",sans-serif; }
 
 p {
   letter-spacing: .04em; }
@@ -1293,51 +1317,6 @@ a {
   a:hover {
     border-bottom: 2px solid #0d8ad6;
     text-decoration: none; }
-
-.btn-cta {
-  display: block;
-  text-align: left;
-  padding: 20px 30px;
-  text-decoration: none;
-  font-weight: 100; }
-  .btn-cta:hover {
-    text-decoration: none; }
-
-.btn-menu {
-  background: url(../images/icon-menu.svg) no-repeat; }
-
-.btn-close {
-  background: url("../images/btn-close.svg") no-repeat; }
-
-.btn-left {
-  border-bottom: 1px solid; }
-  @media screen and (min-width: 500px) {
-    .btn-left {
-      border-right: 1px solid;
-      border-bottom: none; } }
-
-.btn-view-project {
-  margin-right: 15px;
-  float: left; }
-
-.btn-view-site {
-  float: left; }
-
-.btn-cta {
-  -moz-transition-property: background;
-  -o-transition-property: background;
-  -webkit-transition-property: background;
-  transition-property: background;
-  -moz-transition-duration: 0.15s;
-  -o-transition-duration: 0.15s;
-  -webkit-transition-duration: 0.15s;
-  transition-duration: 0.15s; }
-  .btn-cta .arrow {
-    float: right;
-    width: 8px;
-    height: 20px;
-    display: block;
-    text-align: right; }
 
 /*
 -------------
@@ -1371,7 +1350,7 @@ img {
   width: 100%;
   position: fixed;
   z-index: 8000;
-  background: #0a0a0a;
+  background: black;
   color: #ffffff;
   text-align: center;
   font-size: 60px;
@@ -1422,28 +1401,31 @@ header .container-fluid {
   padding-top: 10px; }
   @media screen and (min-width: 768px) {
     .logo-container .logo {
-      width: 80px;
-      padding-top: 0; } }
+      width: 120px;
+      padding-top: 0;
+      margin-bottom: 30px; } }
 
 .title-container {
   padding-right: 0;
   padding-left: 0;
   font-weight: 300; }
   .title-container .title {
-    color: #3d3d3d; }
+    color: #2A3339; }
+  .title-container .logo {
+    margin: 0 auto; }
   .title-container .focused {
-    font-size: 9px;
-    letter-spacing: .2em;
-    padding-bottom: 5px; }
+    letter-spacing: .02em;
+    padding-bottom: 5px;
+    font-weight: 700; }
     @media screen and (min-width: 768px) {
       .title-container .focused {
-        font-size: 15px; } }
+        font-size: 50px; } }
   .title-container .strategy-design {
-    font-size: 12px;
-    letter-spacing: 0.08em; }
+    letter-spacing: 0.08em;
+    font-weight: 700; }
     @media screen and (min-width: 768px) {
       .title-container .strategy-design {
-        font-size: 18px; } }
+        font-size: 70px; } }
 
 .menu-container {
   padding: 31px 25px 17px 26px;
@@ -1452,6 +1434,7 @@ header .container-fluid {
   top: 0;
   z-index: 20;
   cursor: pointer;
+  text-transform: uppercase;
   -moz-transition-property: background;
   -o-transition-property: background;
   -webkit-transition-property: background;
@@ -1479,128 +1462,53 @@ header .container-fluid {
  \/  \/  \___/\_| \_\_| \_/  \___/  \___/\____/\_| \_|\___/ \___/\____/ \/  \/ 
                                                                                                     
 */
-#work-overview .work-container, #other-work .work-container {
-  padding: 0; }
-  #work-overview .work-container figure, #other-work .work-container figure {
-    padding: 0; }
-  #work-overview .work-container .work-image, #other-work .work-container .work-image {
-    overflow: hidden; }
-  #work-overview .work-container .desktop, #other-work .work-container .desktop {
-    max-width: 360px;
-    margin: 0 auto;
-    margin-top: 30px; }
-  #work-overview .work-container .device-md, #other-work .work-container .device-md {
-    position: absolute;
-    width: 120px;
-    left: 12%;
-    visibility: hidden;
-    bottom: 0;
-    transition: width 0.5s;
-    transition: left 0.5s; }
-    @media screen and (min-width: 350px) {
-      #work-overview .work-container .device-md, #other-work .work-container .device-md {
-        width: 150px;
-        bottom: -3px; } }
-    @media screen and (min-width: 1200px) {
-      #work-overview .work-container .device-md, #other-work .work-container .device-md {
-        width: 160px;
-        bottom: -3px;
-        left: -80px; } }
-  #work-overview .work-container .device-sm, #other-work .work-container .device-sm {
-    position: absolute;
-    right: 14%;
-    width: 63px;
-    visibility: hidden;
-    bottom: 0;
-    transition: width 0.5s;
-    transition: right 0.5s; }
-    @media screen and (min-width: 350px) {
-      #work-overview .work-container .device-sm, #other-work .work-container .device-sm {
-        width: 80px;
-        bottom: -3px; } }
-    @media screen and (min-width: 1200px) {
-      #work-overview .work-container .device-sm, #other-work .work-container .device-sm {
-        width: 100px;
-        bottom: -3px;
-        right: 0; } }
-#work-overview figure, #other-work figure {
-  padding: 60px 30px 60px 30px;
-  max-width: 500px;
-  margin: 0 auto; }
-  @media screen and (min-width: 1200px) {
-    #work-overview figure, #other-work figure {
-      margin: 0 20%; } }
-#work-overview .bg-design-guide .work-image, #other-work .bg-design-guide .work-image {
-  background: #0a6ba6; }
-#work-overview .bg-design-guide .btn-cta, #other-work .bg-design-guide .btn-cta {
-  background: #24a4f2;
-  color: #ffffff; }
-  #work-overview .bg-design-guide .btn-cta:hover, #other-work .bg-design-guide .btn-cta:hover {
-    background: #0b77b9; }
-#work-overview .bg-design-guide .btn-left, #other-work .bg-design-guide .btn-left {
-  border-bottom: 1px solid #0c7abe; }
-  @media screen and (min-width: 500px) {
-    #work-overview .bg-design-guide .btn-left, #other-work .bg-design-guide .btn-left {
-      border-right: 1px solid #0c7abe; } }
-#work-overview .bg-bsd .work-image, #other-work .bg-bsd .work-image {
-  background: #3fbae4; }
-#work-overview .bg-bsd .btn-cta, #other-work .bg-bsd .btn-cta {
-  background: #99daf0;
-  color: #ffffff; }
-  #work-overview .bg-bsd .btn-cta:hover, #other-work .bg-bsd .btn-cta:hover {
-    background: #51c0e6; }
-#work-overview .bg-bsd .btn-left, #other-work .bg-bsd .btn-left {
-  border-bottom: 1px solid #56c2e7; }
-  @media screen and (min-width: 500px) {
-    #work-overview .bg-bsd .btn-left, #other-work .bg-bsd .btn-left {
-      border-right: 1px solid #56c2e7; } }
-#work-overview .bg-dgr .work-image, #other-work .bg-dgr .work-image {
-  background: #141415;
-  min-height: 314px; }
-#work-overview .bg-dgr .work-description, #other-work .bg-dgr .work-description {
-  padding-bottom: 42px; }
-#work-overview .bg-dgr figure, #other-work .bg-dgr figure {
-  max-width: 320px;
-  padding-top: 70px; }
-  @media screen and (min-width: 500px) {
-    #work-overview .bg-dgr figure, #other-work .bg-dgr figure {
-      max-width: 400px; } }
-#work-overview .bg-dgr .btn-cta, #other-work .bg-dgr .btn-cta {
-  background: #44484b;
-  color: #ffffff; }
-  #work-overview .bg-dgr .btn-cta:hover, #other-work .bg-dgr .btn-cta:hover {
-    background: #1d1f20; }
-#work-overview .bg-dgr .btn-left, #other-work .bg-dgr .btn-left {
-  border-bottom: 1px solid #202123; }
-  @media screen and (min-width: 500px) {
-    #work-overview .bg-dgr .btn-left, #other-work .bg-dgr .btn-left {
-      border-right: 1px solid #202123; } }
-#work-overview .bg-about-us .work-image, #other-work .bg-about-us .work-image {
-  background: #142632; }
-@media screen and (max-width: 768px) {
-  #work-overview .bg-about-us .work-description, #other-work .bg-about-us .work-description {
-    min-height: 160px; } }
-#work-overview .bg-about-us .btn-cta, #other-work .bg-about-us .btn-cta {
-  background: #305c7c;
-  color: #ffffff; }
-  #work-overview .bg-about-us .btn-cta:hover, #other-work .bg-about-us .btn-cta:hover {
-    background: #193141; }
-#work-overview .bg-about-us .btn-left, #other-work .bg-about-us .btn-left {
-  border-bottom: 1px solid #1b3345; }
-  @media screen and (min-width: 500px) {
-    #work-overview .bg-about-us .btn-left, #other-work .bg-about-us .btn-left {
-      border-right: 1px solid #1b3345; } }
-#work-overview .bg-iconography .work-image, #other-work .bg-iconography .work-image {
-  background: #1abe9f; }
-#work-overview h1, #other-work h1 {
-  line-height: 25px;
-  padding-bottom: 15px;
-  font-size: 22px; }
-#work-overview p, #other-work p {
-  padding-bottom: 15px;
+#work-overview {
+  overflow-x: hidden; }
+  #work-overview .intro-container {
+    padding: 120px 0; }
+  #work-overview .work-container {
+    padding-top: 50px;
+    position: relative; }
+    #work-overview .work-container.about-us {
+      z-index: 2; }
+      #work-overview .work-container.about-us .about-us-bg {
+        margin-bottom: -18px;
+        position: relative;
+        right: -40%; }
+    #work-overview .work-container.about-us2 {
+      z-index: 1; }
+      #work-overview .work-container.about-us2 .about-us-bg {
+        margin-bottom: -18px;
+        position: relative;
+        right: -40%; }
+
+#project .hero h2 {
   font-size: 18px;
-  line-height: 22px;
-  font-weight: 100; }
+  color: #5d6165; }
+#project .hero h1 {
+  font-size: 32px;
+  line-height: 40px; }
+#project .work-container figure {
+  width: 900px;
+  margin: 0 auto; }
+@media screen and (min-width: 500px) {
+  #project .work-container {
+    padding: 0; } }
+#project .work-container.about-us {
+  background: red;
+  height: 800px; }
+#project .content-container {
+  max-width: 600px;
+  margin: 0 auto; }
+  #project .content-container p {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 20px; }
+    @media screen and (min-width: 500px) {
+      #project .content-container p {
+        font-size: 20px;
+        line-height: 32px; } }
 
 /*
 ____________ _____   ___ _____ _____ _____ 
@@ -1652,7 +1560,7 @@ ____________ _____   ___ _____ _____ _____
     font-size: 16px;
     line-height: 28px;
     margin-bottom: 20px;
-    color: #3d3d3d; }
+    color: #2A3339; }
     @media screen and (min-width: 500px) {
       #project .content-container p {
         font-size: 20px;
@@ -1798,95 +1706,6 @@ ______ _____ _____ _____ _____  _   _   _____ _   _ ___________ _____
 */
 .design-guide h2 {
   color: #54b8f5; }
-
-/*
- _    _  ___________ _   __  _____  _   _ ___________ _   _ _____ _____ _    _ 
-| |  | ||  _  | ___ \ | / / |  _  || | | |  ___| ___ \ | | |_   _|  ___| |  | |
-| |  | || | | | |_/ / |/ /  | | | || | | | |__ | |_/ / | | | | | | |__ | |  | |
-| |/\| || | | |    /|    \  | | | || | | |  __||    /| | | | | | |  __|| |/\| |
-\  /\  /\ \_/ / |\ \| |\  \ \ \_/ /\ \_/ / |___| |\ \ \_/ /_| |_| |___\  /\  /
- \/  \/  \___/\_| \_\_| \_/  \___/  \___/\____/\_| \_|\___/ \___/\____/ \/  \/ 
-                                                                                                    
-*/
-#other-work .intro p {
-  font-size: 30px;
-  padding-bottom: 30px; }
-#other-work .work-container {
-  overflow: hidden;
-  padding: 0;
-  min-height: 470px; }
-  #other-work .work-container figure {
-    padding: 0; }
-  #other-work .work-container .work-image {
-    overflow: hidden;
-    padding-top: 30px; }
-  #other-work .work-container .desktop {
-    max-width: 400px; }
-    @media screen and (min-width: 350px) {
-      #other-work .work-container .desktop {
-        margin-bottom: -3px; } }
-  #other-work .work-container .device-md {
-    position: absolute;
-    width: 120px;
-    left: 57px;
-    visibility: hidden;
-    bottom: 0;
-    transition: width 0.5s;
-    transition: left 0.5s; }
-    @media screen and (min-width: 350px) {
-      #other-work .work-container .device-md {
-        width: 150px;
-        bottom: -3px; } }
-    @media screen and (min-width: 1200px) {
-      #other-work .work-container .device-md {
-        width: 130px;
-        bottom: -3px;
-        left: -50px; } }
-  #other-work .work-container .device-sm {
-    position: absolute;
-    right: 63px;
-    width: 63px;
-    visibility: hidden;
-    bottom: 0;
-    transition: width 0.5s;
-    transition: right 0.5s; }
-    @media screen and (min-width: 350px) {
-      #other-work .work-container .device-sm {
-        width: 80px;
-        bottom: -3px; } }
-    @media screen and (min-width: 1200px) {
-      #other-work .work-container .device-sm {
-        width: 80px;
-        bottom: -3px;
-        right: -30px; } }
-#other-work figure {
-  padding: 60px 30px 60px 30px;
-  max-width: 500px;
-  margin: 0 auto; }
-  @media screen and (min-width: 1200px) {
-    #other-work figure {
-      margin: 0 20%; } }
-#other-work .bg-design-guide .work-image {
-  background: #0a6ba6; }
-#other-work .bg-bsd .work-image {
-  background: #3fbae4; }
-#other-work .bg-dgr .work-image {
-  background: #141415; }
-#other-work .bg-about-us .work-image {
-  background: #142632; }
-#other-work .bg-iconography .work-image {
-  background: #1abe9f; }
-#other-work h1 {
-  line-height: 25px;
-  padding-bottom: 15px;
-  font-size: 22px; }
-#other-work .work-description {
-  padding-top: 30px; }
-#other-work p {
-  padding-bottom: 15px;
-  font-size: 18px;
-  line-height: 22px;
-  font-weight: 100; }
 
 footer {
   clear: both;

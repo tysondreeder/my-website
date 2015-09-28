@@ -26,14 +26,18 @@
       </article>
     </section>
     <section class="container-fluid work-container about-us col-sm-12">
-      <div class="bg-frame">
-        <img class="about-us-bg" src="/images/bg-about-us.png" />
+      <div class="work-block col-sm-12">
+        <p class="company">Mutual of Omaha</p>
+        <h1 class="work-name">About Us</h1>
+        <p class="work-done">Design + Development + Strategy</p>
+        <p class="intro">The About Us section for Mutual of Omaha.com</p>
+        <a>See the Project</a>
+        <a>Go to the Website</a>
       </div>
+      <img class="about-us-bg" src="/images/bg-about-us.png" />
     </section>
     <section class="container-fluid work-container about-us2 col-sm-12">
-      <div class="bg-frame">
-        <img class="about-us-bg" src="/images/bg-about-us.png" />
-      </div>
+      <img class="about-us-bg" src="/images/bg-about-us.png" />
     </section>
   </main>
   <?php include("includes/footer.inc.php"); ?>

@@ -1305,7 +1305,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   padding-bottom: 150px !important; }
 
 body {
-  font-family: "museo-sans-rounded",sans-serif; }
+  font-family: "museo-sans",sans-serif; }
 
 p {
   letter-spacing: .04em; }
@@ -1468,13 +1468,30 @@ header .container-fluid {
     padding: 120px 0; }
   #work-overview .work-container {
     padding-top: 50px;
-    position: relative; }
+    position: relative;
+    color: #ffffff; }
+    #work-overview .work-container .company {
+      text-transform: uppercase;
+      font-size: 11px;
+      letter-spacing: .06em; }
+    #work-overview .work-container .work-name {
+      font-size: 40px; }
+    #work-overview .work-container .work-done {
+      padding-top: 8px;
+      font-style: italic; }
+    #work-overview .work-container .intro {
+      padding-top: 8px; }
     #work-overview .work-container.about-us {
       z-index: 2; }
       #work-overview .work-container.about-us .about-us-bg {
         margin-bottom: -18px;
         position: relative;
         right: -40%; }
+        @media screen and (max-width: 500px) {
+          #work-overview .work-container.about-us .about-us-bg {
+            right: 8%;
+            margin-bottom: -8px;
+            max-width: 120%; } }
     #work-overview .work-container.about-us2 {
       z-index: 1; }
       #work-overview .work-container.about-us2 .about-us-bg {

@@ -7,9 +7,11 @@
           <a href="index.php" class="uppercase">Tyson D Reeder</a>
         </article>
         <article class="menu-container">
-          <nav class="pull-right touch-menu">
-            <a href="#" class="btn-menu">Menu</a>
-          </nav>
+          <ul>
+            <li><a href="#">Work</a></li>
+            <li><a href="#">Writing</a></li>
+            <li><a href="#">About</a></li>
+          </ul>
         </article>
       </div>
     </div>

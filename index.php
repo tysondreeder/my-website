@@ -9,11 +9,6 @@
     <section class="intro-container">
       <article class="title-container">
         <section class="text-center uppercase">
-          <div class="logo-container">
-            <div class="logo">
-              <img src="images/logo.svg" />
-            </div>
-          </div>
           <div class="title pt3">
             <p class="focused">user focused</p> 
             <p class="strategy-design">
@@ -25,19 +20,31 @@
         </section>
       </article>
     </section>
-    <section class="container-fluid work-container about-us col-sm-12">
-      <div class="work-block col-sm-12">
+    <section class="container-fluid work-container about-us">
+      <img class="about-us-computer col-sm-6 col-sm-offset-1" src="/images/about-us-macbook.png" />
+      <div class="work-block col-sm-5">
         <p class="company">Mutual of Omaha</p>
         <h1 class="work-name">About Us</h1>
         <p class="work-done">Design + Development + Strategy</p>
         <p class="intro">The About Us section for Mutual of Omaha.com</p>
-        <a>See the Project</a>
-        <a>Go to the Website</a>
+        <div class="button-container">
+          <a class="button left">See the Project</a>
+          <a class="button">Go to the Website</a>
+        </div>
       </div>
-      <img class="about-us-bg" src="/images/bg-about-us.png" />
     </section>
-    <section class="container-fluid work-container about-us2 col-sm-12">
-      <img class="about-us-bg" src="/images/bg-about-us.png" />
-    </section>
+<!--     <section class="container-fluid work-container about-us middle">
+      <img class="about-us-computer col-sm-6 col-sm-offset-1" src="/images/about-us-macbook.png" />
+      <div class="work-block col-sm-5">
+        <p class="company">Mutual of Omaha</p>
+        <h1 class="work-name">About Us</h1>
+        <p class="work-done">Design + Development + Strategy</p>
+        <p class="intro">The About Us section for Mutual of Omaha.com</p>
+        <div class="button-container">
+          <a class="button left">See the Project</a>
+          <a class="button">Go to the Website</a>
+        </div>
+      </div>
+    </section> -->
   </main>
   <?php include("includes/footer.inc.php"); ?>

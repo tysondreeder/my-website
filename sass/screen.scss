@@ -13,7 +13,6 @@
 @import "utilities";
 @import "breakpoints";
 @import "typography";
-@import "buttons";
 
 
 /*
@@ -22,9 +21,7 @@ Website
 -------------
 */
 @import "global";
-@import "overlay";
 @import "header";
+@import "hero";
 @import "home";
-@import "project";
-@import "other-work";
 @import "footer";

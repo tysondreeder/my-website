@@ -1,0 +1,34 @@
+.title-container {
+  padding-right: 0;
+  padding-left: 0;
+  font-weight: 300;
+
+  .title {
+    color: $dark-gray;
+  }
+
+  .logo {
+    margin: 0 auto;
+  }
+
+  .focused {
+    letter-spacing: .02em;
+    padding-bottom: 5px;
+    font-weight: 700;
+    font-size: 27px;
+
+    @media screen and (min-width: $bp-md) {
+      font-size: 50px;
+    }
+  }
+
+  .strategy-design { 
+    letter-spacing: 0.08em;
+    font-weight: 700;
+    font-size: 64px;
+
+    @media screen and (min-width: $bp-md) {
+      font-size: 70px;
+    }
+  }
+}

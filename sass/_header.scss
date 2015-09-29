@@ -7,82 +7,58 @@
 Header
 -------------
 */
-
-header {
-  .container-fluid {
-    padding: 0;
-  }
-}
-
-.header-container {
-  padding: 15px;
-  position: relative;
-}
-
-.logo-container {
-  .logo {
-    width: 50px;
-    padding-top: 10px;
-
-    @media screen and (min-width: $bp-md) {
-      width: 80px;
-      padding-top: 0;
-    }
-  }
-}
-
-.title-container {
-  padding-right: 0;
-  padding-left: 0;
-  font-weight: 300;
-
-  .title {
+.name-container {
+  .name {
+    display: block;
+    font-size: 18px;
     color: $dark-gray;
-  }
+    padding-top: 20px;
+    letter-spacing: .19em;
 
-  .focused {
-    font-size: 9px;
-    letter-spacing: .2em;
-    padding-bottom: 5px;
-
-    @media screen and (min-width: $bp-md) {
-      font-size: 15px;
+    @media screen and (min-width: $bp-xs) {
+      font-size: 16px;
+      padding-top: 40px;
+      padding-left: 10px;
     }
   }
+}
 
-  .strategy-design {
-    font-size: 12px;
-    letter-spacing: 0.08em;
+.menu-icon {
+  background: url("/images/icon-menu.svg") no-repeat;
+  display: block;
+  float: right;
+  width: 30px;
+  height: 30px;
+  margin-top: 41px;
+  margin-right: 35px;
 
-    @media screen and (min-width: $bp-md) {
-      font-size: 18px;
-    }
+  @media screen and (min-width: $bp-sm) {
+    display: none;
   }
 }
 
 .menu-container {
-  @extend .no-underline;
-  padding: 31px 25px 17px 26px;
-  position: fixed;
-  right: 0;
-  top: 0;
-  z-index: 20;
-  cursor: pointer;
-  @include transition-property(background);
-  @include transition-duration(.15s);
+  float: right;
+  color: $dark-gray;
+  padding-top: 20px;
+  display: none;
 
-  @media screen and (min-width: $bp-md) {
-    padding: 35px 33px 24px 37px;
-  }
-
-  &:hover {
-    background: darken($white, 10);
-  }
-
-  .btn-menu {
-    width: 30px;
-    height: 30px;
+  @media screen and (min-width: $bp-sm) {
+    font-size: 24px;
+    padding-top: 40px;
+    padding-left: 10px;
     display: block;
-    @extend .no-underline;
+  }
+
+  ul {
+    float: right;
+
+    li {
+      display: inline-block;
+      text-transform: uppercase;
+      font-size: 16px;
+      margin-left: 5px;
+      margin-right: 5px;
+    }
   }
 }

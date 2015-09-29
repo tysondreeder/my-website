@@ -3,30 +3,19 @@
   <div class="container-fluid">
     <div class="header-container">
       <div class="row">
-        <article class="logo-container col-xs-2">
-          <a href="/index.php">
-            <div class="logo pull-left">
-              <img src="images/logo.svg" />
-            </div>
-          </a>
+        <article class="name-container col-sm-12 text-center">
+          <a href="index.php" class="uppercase name">Tyson D Reeder</a>
         </article>
-        <article class="title-container col-xs-8">
-          <section class="text-center uppercase">
-            <div class="title pt3">
-              <p class="focused">user focused</p> 
-              <p class="strategy-design">
-                <span class="strategy">strategy</span> 
-                + 
-                <span class="design">design</span>
-              </p>
-            </div>
-          </section>
-        </article>
-        <article class="menu-container">
-          <nav class="pull-right touch-menu">
-            <a href="#" class="btn-menu"></a>
-          </nav>
-        </article>
+<!--         <div class="menu-icon col-sm-6 pull-right">
+          <! menu icon 
+        </div> -->
+<!--         <article class="menu-container col-sm-6">
+          <ul>
+            <li><a href="#">Work</a></li>
+            <li><a href="#">Writing</a></li>
+            <li><a href="#">About</a></li>
+          </ul>
+        </article> -->
       </div>
     </div>
   </div>

@@ -22,14 +22,3 @@ body {
 p {
   letter-spacing: .04em;
 }
-
-a {
-  border-bottom: 2px solid transparent;
-  color: $blue;
-  text-decoration: none;
-
-  &:hover {
-    border-bottom: 2px solid $blue;
-    text-decoration: none;
-  }
-}
